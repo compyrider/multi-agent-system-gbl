@@ -1,0 +1,51 @@
+# =============================================================================
+# REQUIREMENTS.TXT FOR RENDER DEPLOYMENT
+# =============================================================================
+
+# Flask Web Framework
+flask>=2.3.0
+flask-cors>=4.0.0
+werkzeug>=2.3.0
+
+# Production WSGI Server
+gunicorn>=21.2.0
+
+# AI & LLM
+openai>=1.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Vector Database (Embeddings & Semantic Search)
+chromadb>=0.4.0
+
+# Firebase (Cloud Database)
+firebase-admin>=6.0.0
+gevent
+
+# Document Processing (PDF, DOCX)
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+PyMuPDF>=1.23.0
+python-docx>=0.8.11  # Dependency added for .docx file extraction
+Pillow>=10.0.0       # Required by pdfplumber
+
+# Async support (usually included in Python 3.7+)
+# asyncio - Built into Python
+
+# HTTP requests (for testing)
+requests>=2.31.0
+
+# Optional: Rate Limiting
+# flask-limiter>=3.5.0
+
+# Optional: Better JSON handling
+# orjson>=3.9.0
+
+
+# NOTES:
+# - All versions use >= to allow minor updates
+# - Gunicorn is required for production deployment on Render
+# - Flask-CORS enables cross-origin requests from frontend
+
+# - ChromaDB includes its own embedding model (no separate install needed)

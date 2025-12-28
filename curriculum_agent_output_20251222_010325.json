@@ -1,0 +1,60 @@
+{
+  "agent": "curriculum_agent",
+  "timestamp": "2025-12-22T01:03:25.512152",
+  "data": {
+    "book_id": "-Oh2L-uWdLchOdkFPCGe",
+    "inserted_chunks": 151,
+    "chunks_summary": [
+      {
+        "position": 0,
+        "summary": "The document is a teaching guide for Grade 8 Science from Oxford Secondary. It is marked as a compli...",
+        "key_concepts": "Grade 8, Science, Teaching Guide"
+      },
+      {
+        "position": 1,
+        "summary": "Oxford University Press, a department of the University of Oxford, publishes scholarly works globall...",
+        "key_concepts": "Oxford University Press, research and education, copyright protection"
+      },
+      {
+        "position": 2,
+        "summary": "The text outlines the structure of a science curriculum covering various topics in biology, chemistr...",
+        "key_concepts": "Ecology, Biotechnology, Electricity and Magnetism"
+      },
+      {
+        "position": 3,
+        "summary": "This teacher's guide series aims to help 6th to 8th-grade teachers facilitate effective learning exp...",
+        "key_concepts": "5 E’s lesson plan, inquiry-based learning, active engagement"
+      },
+      {
+        "position": 4,
+        "summary": "The text outlines a teacher's guide designed to enhance general knowledge education for sixth to eig...",
+        "key_concepts": "Evaluate phase, General Knowledge, Oxford textbook alignment"
+      },
+      {
+        "position": 5,
+        "summary": "The text outlines a structured approach for educators to enhance student learning through elaboratio...",
+        "key_concepts": "Elaborate phase, Progression grid, Adaptation and personalization"
+      },
+      {
+        "position": 6,
+        "summary": "The text outlines the curriculum for Chemistry, Physics, Space Sciences, and Technology in Everyday ...",
+        "key_concepts": "Matter, Energy, Chemical Reactions"
+      },
+      {
+        "position": 7,
+        "summary": "The academic year is divided into three terms, each covering various scientific topics. Term 1 focus...",
+        "key_concepts": "Ecology, Chemistry, Technology"
+      },
+      {
+        "position": 8,
+        "summary": "The text discusses the role of living organisms in the cycling of oxygen and carbon within ecosystem...",
+        "key_concepts": "oxygen cycle, carbon cycle, global warming"
+      },
+      {
+        "position": 9,
+        "summary": "The lesson plans focus on teaching students about ecosystems, including their components and the rol...",
+        "key_concepts": "Ecosystem, Biotic factors, Abiotic factors"
+      }
+    ]
+  }
+}

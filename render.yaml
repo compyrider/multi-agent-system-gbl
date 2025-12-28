@@ -1,0 +1,68 @@
+# render.yaml - Render Configuration File
+# Place this file at the ROOT of your repository
+
+services:
+  - type: web
+    name: quiz-generator-api
+    env: python
+    region: oregon
+    plan: free
+    
+    # IMPORTANT: Set this to your actual folder name if code is nested
+    # If your code is at root, leave as "." or remove this line
+    rootDir: .
+    
+    # Build command
+    buildCommand: pip install -r requirements.txt
+    
+    # Start command
+    startCommand: gunicorn app:app
+    
+    # Environment variables
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      
+      - key: PORT
+        value: 10000
+      
+      - key: FLASK_ENV
+        value: production
+      
+      # Add your actual environment variables here
+      # These should be added in Render Dashboard as secrets
+      - key: OPENAI_API_KEY
+        sync: false
+      
+      - key: FIREBASE_DATABASE_URL
+        sync: false
+      
+      - key: FIREBASE_PROJECT_ID
+        sync: false
+      
+      - key: FIREBASE_PRIVATE_KEY
+        sync: false
+      
+      - key: FIREBASE_CLIENT_EMAIL
+        sync: false
+      
+      - key: FIREBASE_CLIENT_ID
+        sync: false
+      
+      - key: FIREBASE_PRIVATE_KEY_ID
+        sync: false
+      
+      - key: FIREBASE_CERT_URL
+        sync: false
+      
+      - key: FIREBASE_STORAGE_BUCKET
+        sync: false
+      
+      - key: CHROMA_PERSIST_DIR
+        value: ./chroma_db
+    
+    # Auto-deploy on push
+    autoDeploy: true
+    
+    # Health check
+    healthCheckPath: /health

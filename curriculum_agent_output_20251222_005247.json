@@ -1,0 +1,60 @@
+{
+  "agent": "curriculum_agent",
+  "timestamp": "2025-12-22T00:52:47.759357",
+  "data": {
+    "book_id": "-Oh2JyKSlmzfV6Y1nPk4",
+    "inserted_chunks": 151,
+    "chunks_summary": [
+      {
+        "position": 0,
+        "summary": "GRADE\n8NEW Oxford \nSecondary\nSCIENCE\nTEACHING GUIDEComplimenta ry Copy— Not F or Sale...",
+        "key_concepts": ""
+      },
+      {
+        "position": 1,
+        "summary": "Oxford University Press is a department of the University of Oxford.  \nIt furthers the University’s ...",
+        "key_concepts": ""
+      },
+      {
+        "position": 2,
+        "summary": "iii\nIntroduction\nBiology\nUnit 1 Ecology 1\nUnit 2 The Nervous System 18\nUnit 3 Variations, Heredity, ...",
+        "key_concepts": ""
+      },
+      {
+        "position": 3,
+        "summary": "iv\nIntroduction\nI. Overview:\n In today’s rapidly changing world, students must have a solid foundati...",
+        "key_concepts": ""
+      },
+      {
+        "position": 4,
+        "summary": "v\n5. Evaluate:  During the Evaluate phase, teachers can assess students’ learning progress and \nmeas...",
+        "key_concepts": ""
+      },
+      {
+        "position": 5,
+        "summary": "vi\n5. Elaborate and Apply:  In the Elaborate phase, students extend their understanding and \napply w...",
+        "key_concepts": ""
+      },
+      {
+        "position": 6,
+        "summary": "vii\nChemistry\nGrade VI Grade VII Grade VIII\nUnit 5: Matters as Particles Unit 4: Structure of an ato...",
+        "key_concepts": ""
+      },
+      {
+        "position": 7,
+        "summary": "viii\nACADEMIC YEAR BREAKDOWN\nTerm 1:\nChapter 1: Ecology\nChapter 2: The Nervous System\nChapter 3: Var...",
+        "key_concepts": ""
+      },
+      {
+        "position": 8,
+        "summary": "1\nNew Oxford Secondary Science Teaching Guide 8EcologyCHAPTER\n01BIOLOGY\nLearning outcomes:\n• describ...",
+        "key_concepts": ""
+      },
+      {
+        "position": 9,
+        "summary": "2Ecology\nLesson Plan 1\nEcosystemStudent Book pages \n10-11Time\n45 MinutesWorkbook pages\n-\nObjective:\n...",
+        "key_concepts": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "agent": "quiz_generator_agent",
+  "timestamp": "2025-12-22T01:03:43.634004",
+  "data": {
+    "quiz_id": "e501b9e7-9dd8-4a4b-a50b-8552631ec363",
+    "book_id": "-Oh2L-uWdLchOdkFPCGe",
+    "topic": "Test Topic",
+    "n_questions": 5,
+    "chunks_used": 1,
+    "questions": [
+      {
+        "question": "What is the primary objective of the buoyancy experiment described in the context?",
+        "choices": [
+          "A. To measure the temperature of water",
+          "B. To test predictions about which objects will float or sink",
+          "C. To calculate the weight of various objects",
+          "D. To observe the color changes in water"
+        ],
+        "correct": "B",
+        "explanation": "The buoyancy experiment aims to test predictions about which objects will float or sink in water, as indicated in the context.",
+        "hint": "The experiment involves placing objects in water to see their behavior.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What formula is used to define pressure in the lesson plan?",
+        "choices": [
+          "A. P = F + A",
+          "B. P = F / A",
+          "C. P = A / F",
+          "D. P = F - A"
+        ],
+        "correct": "B",
+        "explanation": "The formula for pressure given in the lesson plan is P = F / A, which defines pressure as the force exerted per unit area.",
+        "hint": "Pressure is related to force and area.",
+        "difficulty": "easy"
+      },
+      {
+        "question": "In the context of the lesson plan, what happens to pressure as depth increases in water?",
+        "choices": [
+          "A. Pressure decreases",
+          "B. Pressure remains constant",
+          "C. Pressure increases",
+          "D. Pressure fluctuates randomly"
+        ],
+        "correct": "C",
+        "explanation": "The context states that water pressure increases with depth, indicating that pressure is affected by the depth of the water.",
+        "hint": "Consider how pressure behaves in a fluid environment.",
+        "difficulty": "medium"
+      },
+      {
+        "question": "What activity is suggested to evaluate students' understanding of density and buoyancy?",
+        "choices": [
+          "A. A written test on pressure",
+          "B. A 'Density Challenge' activity",
+          "C. A group project on ship design",
+          "D. A video presentation on hot air balloons"
+        ],
+        "correct": "B",
+        "explanation": "The 'Density Challenge' activity is specifically mentioned as a way to evaluate students' understanding of density and buoyancy by making predictions and testing them.",
+        "hint": "This activity involves predicting whether objects will float or sink.",
+        "difficulty": "hard"
+      },
+      {
+        "question": "What is one of the home assignments given to students related to density and buoyancy?",
+        "choices": [
+          "A. Write a report on pressure",
+          "B. Find an image or video depicting real-world scenarios of density and buoyancy",
+          "C. Create a model of a submarine",
+          "D. Conduct an experiment on air pressure"
+        ],
+        "correct": "B",
+        "explanation": "Students are asked to find an image or video that shows a real-world scenario where density and buoyancy are important, as stated in the home assignment section.",
+        "hint": "Look for examples involving ships or balloons.",
+        "difficulty": "medium"
+      }
+    ],
+    "model_raw_output": "```json\n[\n    {\n        \"question\": \"What is the primary objective of the buoyancy experiment described in the context?\",\n        \"choices\": [\n            \"A. To measure the temperature of water\",\n            \"B. To test predictions about which objects will float or sink\",\n            \"C. To calculate the weight of various objects\",\n            \"D. To observe the color changes in water\"\n        ],\n        \"correct\": \"B\",\n        \"explanation\": \"The buoyancy experiment aims to test predictions about which objects will float or sink in water, as indicated in the context.\",\n        \"hint\": \"The experiment involves placing objects in water to see their behavior.\",\n        \"difficulty\": \"medium\"\n    },\n    {\n        \"question\": \"What formula is used to define pressure in the lesson plan?\",\n        \"choices\": [\n            \"A. P = F + A\",\n            \"B. P = F / A\",\n            \"C. P = A / F\",\n            \"D. P = F - A\"\n        ],\n        \"correct\": \"B\",\n        \"explanation\": \"The formula for pressure given in the lesson plan is P = F / A, which defines pressure as the force exerted per unit area.\",\n        \"hint\": \"Pressure is related to force and area.\",\n        \"difficulty\": \"easy\"\n    },\n    {\n        \"question\": \"In the context of the lesson plan, what happens to pressure as depth increases in water?\",\n        \"choices\": [\n            \"A. Pressure decreases\",\n            \"B. Pressure remains constant\",\n            \"C. Pressure increases\",\n            \"D. Pressure fluctuates randomly\"\n        ],\n        \"correct\": \"C\",\n        \"explanation\": \"The context states that water pressure increases with depth, indicating that pressure is affected by the depth of the water.\",\n        \"hint\": \"Consider how pressure behaves in a fluid environment.\",\n        \"difficulty\": \"medium\"\n    },\n    {\n        \"question\": \"What activity is suggested to evaluate students' understanding of density and buoyancy?\",\n        \"choices\": [\n            \"A. A written test on pressure\",\n            \"B. A 'Density Challenge' activity\",\n            \"C. A group project on ship design\",\n            \"D. A video presentation on hot air balloons\"\n        ],\n        \"correct\": \"B\",\n        \"explanation\": \"The 'Density Challenge' activity is specifically mentioned as a way to evaluate students' understanding of density and buoyancy by making predictions and testing them.\",\n        \"hint\": \"This activity involves predicting whether objects will float or sink.\",\n        \"difficulty\": \"hard\"\n    },\n    {\n        \"question\": \"What is one of the home assignments given to students related to density and buoyancy?\",\n        \"choices\": [\n            \"A. Write a report on pressure\",\n            \"B. Find an image or video depicting real-world scenarios of density and buoyancy\",\n            \"C. Create a model of a submarine\",\n            \"D. Conduct an experiment on air pressure\"\n        ],\n        \"correct\": \"B\",\n        \"explanation\": \"Students are asked to find an image or video that shows a real-world scenario where density and buoyancy are important, as stated in the home assignment section.\",\n        \"hint\": \"Look for examples involving ships or balloons.\",\n        \"difficulty\": \"medium\"\n    }\n]\n```",
+    "retrieved_chunks_info": [
+      {
+        "position": 101,
+        "summary": "The lesson focuses on understanding buoyancy and pressure through hands-on experiments and discussio...",
+        "relevance_score": -0.19439947605133057
+      }
+    ]
+  }
+}
